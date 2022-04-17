@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState} from 'react';
 import './App.css';
 
 function App() {
@@ -64,11 +64,4 @@ function App() {
 }
 
 export default App;
-
-  // return (
-  //   <div className={ !theme ? 'light' : 'dark'}>
-  //     <p>Hello Calc</p>
-  //     <button onClick={handleTheme}>Click me</button>
-  //   </div>
-  // )
 
